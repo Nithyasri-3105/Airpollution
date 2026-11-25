@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "usr-demo-1",
+      "name": "Alex Mercer",
+      "email": "alex@airsense.ai",
+      "passwordHash": "$2a$10$3I.jRmzQpXkwHybkJSrPoOpzlNAVE3AhN8Eh.uYlExFPBjVXhIJO2",
+      "city": "New York",
+      "age": 21,
+      "healthSensitivity": "Asthma",
+      "alertPreferences": {
+        "unhealthyAlerts": true,
+        "predictionSpikeAlerts": true,
+        "activityAlerts": true,
+        "emailDigest": false
+      },
+      "createdAt": "2026-09-23T13:24:32.883Z"
+    },
+    {
+      "id": "usr-demo-2",
+      "name": "Sarah Chen",
+      "email": "sarah@airsense.ai",
+      "passwordHash": "$2a$10$3I.jRmzQpXkwHybkJSrPoOpzlNAVE3AhN8Eh.uYlExFPBjVXhIJO2",
+      "city": "New York",
+      "age": 34,
+      "healthSensitivity": "None",
+      "alertPreferences": {
+        "unhealthyAlerts": true,
+        "predictionSpikeAlerts": false,
+        "activityAlerts": true,
+        "emailDigest": true
+      },
+      "createdAt": "2026-09-23T13:24:32.883Z"
+    },
+    {
+      "name": "Verification Bot",
+      "email": "testuser_1790169872802@airsense.ai",
+      "passwordHash": "$2a$10$lxJ/iFoaM20mE1kdKh1Wp.saPo6fdT5YOFa3ctP2FStPBRePj8O1C",
+      "city": "Delhi",
+      "age": 30,
+      "healthSensitivity": "Asthma",
+      "alertPreferences": {
+        "unhealthyAlerts": true,
+        "predictionSpikeAlerts": true,
+        "activityAlerts": true,
+        "emailDigest": false
+      },
+      "id": "usr-1790169872940-7kc0l",
+      "createdAt": "2026-09-23T13:24:32.940Z"
+    },
+    {
+      "name": "Praveena",
+      "email": "praveena.s2025aids@sece.ac.in",
+      "passwordHash": "$2a$10$EWGzYbOuxjxqnvs.MYmmcOJ5tMt0.7m78RuFdV1vUWNvRwNUBZnd.",
+      "city": "Delhi",
+      "age": 27,
+      "healthSensitivity": "None",
+      "alertPreferences": {
+        "unhealthyAlerts": true,
+        "predictionSpikeAlerts": true,
+        "activityAlerts": true,
+        "emailDigest": false
+      },
+      "id": "usr-1790169993434-i6s26",
+      "createdAt": "2026-09-23T13:26:33.434Z"
+    },
+    {
+      "name": "Nithyasri",
+      "email": "nithya@gmail.com",
+      "passwordHash": "$2a$10$BD81rgpoUTBpNGEwPb0hv.IZqsWnyC0RGKML8mT6VraFgqRnk5vTK",
+      "city": "Delhi",
+      "age": 24,
+      "healthSensitivity": "None",
+      "alertPreferences": {
+        "unhealthyAlerts": true,
+        "predictionSpikeAlerts": true,
+        "activityAlerts": true,
+        "emailDigest": false
+      },
+      "id": "usr-1790673557053-8xw17",
+      "createdAt": "2026-09-29T09:19:17.053Z"
+    },
+    {
+      "name": "Nithyasri",
+      "email": "nith@gmail.com",
+      "passwordHash": "$2a$10$bQZTUCoWkpmg4kkbZjA6A.EYQ7FYc2057nheimIauEx1DEetffU/6",
+      "city": "New York",
+      "age": 23,
+      "healthSensitivity": "Respiratory sensitivity",
+      "alertPreferences": {
+        "unhealthyAlerts": true,
+        "predictionSpikeAlerts": true,
+        "activityAlerts": true,
+        "emailDigest": false
+      },
+      "id": "usr-1793279628741-9dnz1",
+      "createdAt": "2026-10-29T13:13:48.741Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alt-1",
+      "type": "danger",
+      "title": "Air Quality Alert: Unhealthy Level Detected",
+      "message": "Current AQI in Delhi has reached 184 (Unhealthy). Sensitive groups should refrain from outdoor physical exertion.",
+      "timestamp": "15 mins ago",
+      "read": false,
+      "city": "Delhi"
+    },
+    {
+      "id": "alt-2",
+      "type": "warning",
+      "title": "Forecast Spike Alert: Evening Rush Hour",
+      "message": "Particulate PM2.5 levels are forecasted to spike by 32% between 18:00 and 21:00 due to temperature inversion.",
+      "timestamp": "1 hour ago",
+      "read": false,
+      "city": "Delhi"
+    },
+    {
+      "id": "alt-3",
+      "type": "info",
+      "title": "Clean Air Window Advisory",
+      "message": "Optimal green zone activity window in Lodhi Gardens detected between 06:00 AM and 07:30 AM tomorrow.",
+      "timestamp": "3 hours ago",
+      "read": true,
+      "city": "Delhi"
+    }
+  ]
+}
